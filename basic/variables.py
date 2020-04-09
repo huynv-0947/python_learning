@@ -22,6 +22,13 @@ tuples = (1, 2, 'three', 'four')
 # error syntax: tuples[0] = 0
 print(tuples, tuples[0], tuples[0:2])
 
+# set
+sets = {1, 2, 3}
+sets.add(1)
+print(sets) # {1, 2, 3}
+sets.add(4)
+print(sets) # {1, 2, 3, 4}
+
 # dictionary
 dict = {"one": 1, 2: "two"}
 print(dict, dict['one'], dict[2], dict.keys(), dict.values())
