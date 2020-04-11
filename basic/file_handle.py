@@ -1,3 +1,5 @@
+import os
+
 # open file
 f = open("file.txt")
 print(f.read())
@@ -26,3 +28,7 @@ f.close()
 # create new file
 # f = open("file.txt", "x") => raise error
 f = open("new_file.txt", "x")
+
+# rename
+os.rename("file.txt", "file1.txt")
+os.rename("file1.txt", "file.txt")
