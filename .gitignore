@@ -1,1 +1,4 @@
 /basic/__pycache__/*
+
+/django_project/mysite/mysite/__pycache__/*
+/django_project/mysite/polls/__pycache__/*
